@@ -6,7 +6,7 @@
     overflow: hidden;
 }
 .main-background{
-position: absolute;
+    position: absolute;
     background-image: url("https://web-static.hg-cdn.com/endfield/official/oversea/_next/static/media/loadingBg.411e8359.jpg");
     background-position: center;
     background-repeat: no-repeat;
