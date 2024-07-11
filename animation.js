@@ -13,3 +13,17 @@ function togglePulse(element) {
 
   isPlaying = !isPlaying;
 }
+
+function showSidebar(sidebarToShow) {
+  const sidebars = document.querySelectorAll('.main-sidebar');
+
+  sidebars.forEach(sidebar => {
+    if (sidebar.classList.contains(sidebarToShow)) {
+      sidebar.classList.remove('hidden');
+      sidebar.classList.add('shown');
+    } else {
+      sidebar.classList.remove('shown');
+      sidebar.classList.add('hidden');
+    }
+  });
+}

@@ -1,21 +1,29 @@
 .main-sidebar {
+    position: absolute;
     display: flex; 
     height: inherit !important;
     width: 3.0em;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
     background-color: rgba(61, 61, 61,0.5);
-    transition: var(--transition-speed);
-}  
+    transition: 1000ms;
+    overflow: hidden;
+}
+.hidden {
+    transform: translateX(-100%); /* Hide the sidebar */
+}
+
+.shown {
+    transform: translateX(0); /* Show the sidebar */
+}
+
 .main-sidebar:hover {
     width: 11rem;
 }
 
-
-
 .main-sidebar-items {
-    width: 100%;
     overflow: hidden;
     color: white;
+    overflow-y: auto;
 }
 .main-sidebar-items ul{
     list-style-type: none;
@@ -48,13 +56,13 @@
 .list-item-image {
     transition: var(--transition-speed);
     width: 40px; 
-    height: auto;
+    padding: 5px;
 }
 .list-item-text{
     opacity: 0;
     font-family: monospace;
-    font-size: large;
-    margin-left: 5px;
+    font-size: medium;
+    margin-left: 2px;
 } 
 .main-sidebar:hover .list-item-text{
     transition: var(--transition-speed);
