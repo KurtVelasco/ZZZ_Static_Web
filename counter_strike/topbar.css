@@ -1,5 +1,8 @@
+@font-face {
+  font-family: ZZZ;
+  src: url(/words/en-us.ttf); 
+}
 
-  
 .topbar {
     position: absolute;
     background-image: url(https://web-static.hg-cdn.com/endfield/official/oversea/_next/static/media/nav.77e6df56.jpg);

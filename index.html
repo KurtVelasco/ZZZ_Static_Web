@@ -1,13 +1,12 @@
 
 <head>
-    <link rel="stylesheet" type="text/css" href ="index.css">
-    <link rel="stylesheet" type="text/css" href ="chat.css">
-    <link rel="stylesheet" type="text/css" href ="topbar.css">
-    <link rel="stylesheet" type="text/css" href ="sidebar.css">
-    <link rel="stylesheet" type="text/css" href ="insanity.css">
+    <link rel="stylesheet" type="text/css" href ="counter_strike/index.css">
+    <link rel="stylesheet" type="text/css" href ="counter_strike/insanity.css">
+    <link rel="stylesheet" type="text/css" href ="counter_strike/sidebar.css">
+    <link rel="stylesheet" type="text/css" href ="counter_strike/topbar.css">
 
-    <script src="animation.js" async></script>
-    <script src="chat.js" async></script>
+    <script src="coffee_script/animation.js" async></script>
+    <script src="coffee_script/chat.js" async></script>
 </head>
 
 <body class="main-body">
@@ -17,7 +16,7 @@
         <div class="main-sidebar-items">
             <button href="" class="list-item">
                 <div class="list-item-content">
-                    <img src="amiya.png" alt="Image" class="list-item-image">
+                    <img src="collection_pixels/amiya.png" alt="Image" class="list-item-image">
                     <div class="list-item-text">
                         <span>Arknights EN</span>
                         <span>Kritzkingvoid#2065</span>
@@ -26,7 +25,7 @@
             </button>
             <button href="" class="list-item">
                 <div class="list-item-content">
-                    <img src="anby.png" alt="Image" class="list-item-image">
+                    <img src="collection_pixels/anby.png" alt="Image" class="list-item-image">
                     <div class="list-item-text">
                         <span>Zenless Zone Zero</span>
                         <span>UID:1301608419</span>
@@ -35,7 +34,7 @@
             </button>
             <button href="" class="list-item">
                 <div class="list-item-content">
-                    <img src="march.png" alt="Image" class="list-item-image">
+                    <img src="collection_pixels/march.png" alt="Image" class="list-item-image">
                     <div class="list-item-text">
                             <span>Honkai Star Rail</span>
                             <span>UID:825012888</span>
@@ -44,7 +43,7 @@
             </button>
             <button href="" class="list-item">
                 <div class="list-item-content">
-                    <img src="paimon.jpg" alt="Image" class="list-item-image">
+                    <img src="collection_pixels/paimon.jpg" alt="Image" class="list-item-image">
                     <div class="list-item-text">
                             <span>Genshin Impact</span>
                             <span>UID:000000000</span>
@@ -53,7 +52,7 @@
             </button>
             <button href="" class="list-item">
                 <div class="list-item-content">
-                    <img src="/steam.png" alt="Image" class="list-item-image">
+                    <img src="collection_pixels/steam.png" alt="Image" class="list-item-image">
                     <div class="list-item-text">
                             <span>Steam Prof</span>
                             <span>Kritzkingvoid</span>
@@ -62,7 +61,7 @@
             </button>
             <button href="" class="list-item">
                 <div class="list-item-content">
-                    <img src="/discord.png" alt="Image" class="list-item-image">
+                    <img src="collection_pixels/discord.png" alt="Image" class="list-item-image">
                     <div class="list-item-text">
                             <span>Discord ID:</span>
                             <span>Kritzkingvoid</span>
@@ -111,9 +110,9 @@
         </div>
         <div class="main-inputbox">
             <div class="input-box">
-                <input type="text" id="user-input" placeholder="Type your message..." />
-                <button onclick="FirstPlayer()">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="white" height="20" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M16.1 260.2c-22.6 12.9-20.5 47.3 3.6 57.3L160 376V479.3c0 18.1 14.6 32.7 32.7 32.7c9.7 0 18.9-4.3 25.1-11.8l62-74.3 123.9 51.6c18.9 7.9 40.8-4.5 43.9-24.7l64-416c1.9-12.1-3.4-24.3-13.5-31.2s-23.3-7.5-34-1.4l-448 256zm52.1 25.5L409.7 90.6 190.1 336l1.2 1L68.2 285.7zM403.3 425.4L236.7 355.9 450.8 116.6 403.3 425.4z"/></svg>
+                <input type="text" class="main-chat-input" id="user-input" placeholder="Type your message..."  />
+                <button class="pulse" onclick="FirstPlayer()">
+                    <svg fill="#F5EDDC"  height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480V396.4c0-4 1.5-7.8 4.2-10.7L331.8 202.8c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8 17.7 316.6C7.1 311.3 .3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4z"/></svg>
                 </button>
             </div>
         </div>      
@@ -217,9 +216,9 @@
                 <svg fill="#F5EDDC"  height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M336 352c97.2 0 176-78.8 176-176S433.2 0 336 0S160 78.8 160 176c0 18.7 2.9 36.8 8.3 53.7L7 391c-4.5 4.5-7 10.6-7 17v80c0 13.3 10.7 24 24 24h80c13.3 0 24-10.7 24-24V448h40c13.3 0 24-10.7 24-24V384h40c6.4 0 12.5-2.5 17-7l33.3-33.3c16.9 5.4 35 8.3 53.7 8.3zM376 96a40 40 0 1 1 0 80 40 40 0 1 1 0-80z"/></svg>
             </div>                       
         </button>
-        <button class="topbar-button pulse" title="School Stuff" onclick="toggleDropdownMenu()" hover="meme">       
+        <button class="topbar-button pulse" title="Mail" onclick="toggleDropdownMenu()" hover="meme">       
             <div>
-                <svg  fill="#F5EDDC" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
+                <svg  fill="lightpink" height="20" width="20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"/></svg>
             </div>                       
         </button>
         <button class="topbar-button last-button music-button pulse" onclick="togglePulse(this)">       

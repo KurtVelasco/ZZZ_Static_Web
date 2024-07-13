@@ -1,7 +1,8 @@
 @font-face {
     font-family: ZZZ;
-    src: url(en-us.ttf); 
+    src: url(/words/en-us.ttf); 
   }
+  
 .main-sidebar {
     background-image: url(https://act.hoyoverse.com/zzz/event/e20240702landing-hcklq6/images/bg.04dd4630..jpg);
     position: absolute;
