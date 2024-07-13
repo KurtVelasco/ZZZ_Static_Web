@@ -1,0 +1,132 @@
+@font-face {
+    font-family: ZZZ;
+    src: url(en-us.ttf); 
+  }
+  
+:root{
+    --transition-speed: 450ms;
+  }
+  .main-chat{
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    transition: 2000ms;
+    width: 60%;
+    height: 90%;
+  }
+  .main-chat.hide{
+    top: -300;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .main-chat .header-title{
+    border-radius: 10px 10px 0px 0px;
+    background-color: rgb(39, 39, 39);
+    display: flex;
+    height: 40px;
+    align-items: center;
+  } 
+  .main-chat .header-title button{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+  }
+  .main-chat .header-title h{ 
+    font-family: ZZZ;
+    color: white;  
+    margin-left: 10px;
+  }
+  .color{
+    background-image: linear-gradient(90deg,#ff00f0 17.5%,#fff100 17.5% 35.6%,#00ffa2 35.6% 100%);
+    height: 2px;
+  }
+  .chatbox {
+    height: 80%;
+    overflow-y: scroll;
+    background-image: url("https://act.hoyoverse.com/zzz/event/e20240702landing-hcklq6/images/bg.04dd4630..jpg");
+    background-size:  cover;
+    opacity: 0.7;
+  }
+
+  .message {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 5px;
+  }
+  .username{
+    color: #00ffa2;
+    padding: 2px;
+    border-radius: 2px;
+  }
+  .bot-username{
+    color: #ff00f0;
+  }
+  
+  .message .profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .message .message-content {
+    padding: 10px;
+    border-radius: 5px;
+    word-wrap: break-word;
+    margin-top: 5px;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    font-family: ZZZ;
+  }
+  
+  .user-message {
+    flex-direction: row-reverse;
+  }
+  
+  .bot-message .message-content {
+    background-color: rgb(41, 41, 41);
+    color: white;
+    font-family: ZZZ;
+  }
+  
+  .input-box {
+    display: flex;
+    width: 100%;
+    margin-left: 15px;
+  }
+  
+  .input-box input {
+    background-color: rgb(83, 83, 83);
+    color: white;
+    width: 95%;
+    padding: 5px;
+  
+  }
+  .input-box button {
+    background-color: transparent;
+    border: 0;
+  
+  }
+  
+  .main-chat .main-inputbox{
+    border-radius: 0px 0px 10px 10px;
+    height: 50px;
+    background-color: rgb(39, 39, 39);
+  
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Scrollbar */
+  .chatbox::-webkit-scrollbar {
+    background-color: transparent;
+    width: 10px;
+    padding: 5px;
+  }
+  .chatbox::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 5px;
+  }
+  
