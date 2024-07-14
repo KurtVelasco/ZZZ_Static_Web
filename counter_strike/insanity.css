@@ -1,9 +1,7 @@
 @font-face {
   font-family: ZZZ;
-  src: url(/counter_strike/en-us.ttf); 
+  src: url(../counter_strike/en-us.ttf); 
 }
-
-
 :root{
     --transition-speed: 450ms;
   }
