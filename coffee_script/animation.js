@@ -1,5 +1,5 @@
 let isPlaying = false;
-const audio = new Audio('beep_boops/99.mp3'); // Replace with the path to your MP3 file
+const audio = new Audio('https://fastcdn.hoyoverse.com/mi18n/nap_global/m20240603hy38zhr2tc/upload/0e5b56341f72ae72f5db600776e79cbc_4823529791387624270.mp3'); 
 
 function togglePulse(element) {
   const svgElement = element.querySelector('svg');
