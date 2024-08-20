@@ -1,0 +1,17 @@
+.button-border{
+    display: flex;
+
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    align-items: center;
+}
+.button-text{
+    font-family: ZZZ;
+    padding-left: 0.25rem;
+    color: rgb(187, 187, 187);
+}
+.button-border.hover-light:hover{
+    background-color: blue;
+    transition: var(--transition-speed);
+}

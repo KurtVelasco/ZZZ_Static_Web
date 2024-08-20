@@ -6,16 +6,23 @@
 :root{
     --transition-speed: 450ms;
   }
+  .header-title-scrolling-text{
+    color: #474747;
+    position: absolute;
+    font-family: ZZZ;
+    position: relative;
+  }
   .header-box{
-    display: flex;
+
     width: 100%;
-    margin-left: 0.5rem;
     pointer-events: none;
   }
   .header-box input{
-    color: #ff00f0;
     background-color: rgb(32, 32, 32);
+    height: 60%;
   }
+
+
   .main-chat{
     position: absolute;
     left: 20%;
@@ -86,7 +93,7 @@
     border-radius: 5px;
     word-wrap: break-word;
     margin-top: 5px;
-    background: rgba(63, 63, 63, 0.5);
+    background: rgba(63, 63, 63, 0.9);
     color: white;
     font-family: ZZZ;
   }
