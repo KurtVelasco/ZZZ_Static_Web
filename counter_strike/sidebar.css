@@ -5,8 +5,8 @@
     display: flex; 
     height: inherit !important;
     width: 3.0em;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
-    background-color: rgba(179, 0, 255, 0.5);
+    box-shadow: 10px 10px 10px #2121214d;
+    background-color: rgba(70, 70, 70, 0.5);
     transition: 1000ms;
     overflow: hidden;
 }
